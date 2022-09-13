@@ -3,7 +3,7 @@ it is created using django drf as backend and jquery &amp; javascript in fronten
 
 
 List of Endpoints :
- 1) http://127.0.0.1:8000/api/admin [crud can be performed only by user with usertype  == "1" ie Admin
+ 1) http://127.0.0.1:8000/api/admin [crud can be performed only by user with usertype = "1" ie Admin , usertype  = "2" means Student.
  2) http://127.0.0.1:8000/api/student [only read operation]
  3) http://127.0.0.1:8000/api/user [for creating new users, ever new user is a student , however superuser can change them into admin (choice is available).
  4) http://127.0.0.1:8000/login [for login purpose, based on which user will be redirected to respective page.]
