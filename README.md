@@ -11,3 +11,11 @@ List of Endpoints :
  i have used token based authentication system (email based).
  
  In frontend (Html, css, javaScript, query and bootstrap) is used for simplicity purposes as they were sufficient for the project.
+
+For frontend, following are the urls : 
+1) http://127.0.0.1:5500/login.html
+2) http://127.0.0.1:5500/register.html
+3) http://127.0.0.1:5500/adminView.html
+4) http://127.0.0.1:5500/studentview.html
+
+ use following ports only , as in settings.py file I have allowed only one domain ie   "http://127.0.0.1:5500/" .
