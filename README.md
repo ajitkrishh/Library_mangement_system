@@ -19,3 +19,10 @@ For frontend, following are the urls :
 4) http://127.0.0.1:5500/studentview.html
 
  use following ports only , as in settings.py file I have allowed only one domain ie   "http://127.0.0.1:5500/" .
+
+#How to 
+
+First create a super user, there when asked for UserType make it "1".
+Login in frontend using above urls, and use the service.
+Obviously we have to perform migration,
+Check settings.py file for database related info.
